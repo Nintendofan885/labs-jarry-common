@@ -20,7 +20,7 @@
 	 * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 	 */
 
-	ini_set( 'user_agent', 'Wikimedia Labs tool' );
+	ini_set( 'user_agent', 'Wikimedia Toolforge tool' );
 	ini_set( 'display_errors', 1 );
 	error_reporting( E_ALL );
 
@@ -50,10 +50,10 @@ $htmltag
 	<head>
 		<title>Jarry1250's Wikimedia Laboratory - $onesan</title>
 		<meta http-equiv="Content-Type" content="charset=UTF-8" />
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="//tools.wmflabs.org/jarry-common/master.css" />
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="https://jarry-common.toolforge.org/master.css" />
 		<script src="//tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="//tools.wmflabs.org/jarry-common/jquery.html5form-min.js"></script>
-		<script src="//tools.wmflabs.org/jarry-common/jquery.cookie-min.js"></script>
+		<script src="https://jarry-common.toolforge.org/jquery.html5form-min.js"></script>
+		<script src="https://jarry-common.toolforge.org/jquery.cookie-min.js"></script>
 		<script type="text/javascript">
 			function dismiss(){
 				$('#statusbox').hide();
