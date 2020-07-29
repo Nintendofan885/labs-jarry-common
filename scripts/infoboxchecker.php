@@ -25,7 +25,7 @@
 		if( $inverse == "true" ){
 			$inverse = "&inverse=true";
 		}
-		header( "Location: https://tools.wmflabs.org/jarry-common/scripts/infoboxchecker.php?lang=$lang&template=$template&category=$category$inverse" );
+		header( "Location: https://jarray-common.toolforge.org/scripts/infoboxchecker.php?lang=$lang&template=$template&category=$category$inverse" );
 	}
 
 	require_once( '/data/project/jarry-common/public_html/global.php' );
