@@ -20,7 +20,7 @@
 	 * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 	 */
 
-	ini_set( 'user_agent', 'Wikimedia Toolforge tool' );
+	ini_set( 'user_agent', 'Wikimedia Toolforge tool // https://jarry-commons.toolforge.org' );
 	ini_set( 'display_errors', 1 );
 	error_reporting( E_ALL );
 
