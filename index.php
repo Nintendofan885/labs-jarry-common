@@ -23,16 +23,16 @@
 	
 	echo get_html( 'header', _html( 'homepage-title', 'jarry' ) );
 ?>
-			<p>Welcome to my index of Wikimedia Labs tools I (User:Jarry1250) have been involved in the development of. If you have any queries, you can always contact me by leaving a message on <a href="//en.wikipedia.org/wiki/User_talk:Jarry1250">my en.wp talk page</a> or by following that page's "Email this user" link on the lest hand side. <em>Note that tools may be periodically removed. If you rely on one that does get removed, just tell me and I will replace it for you.</em> The last such rotation was in February 2019, during the transition to Debian.</p>
+			<p>Welcome to my index of Wikimedia Toolforge tools I (User:Jarry1250) have been involved in the development of. If you have any queries, you can always contact me by leaving a message on <a href="//en.wikipedia.org/wiki/User_talk:Jarry1250">my en.wp talk page</a> or by following that page's "Email this user" link on the lest hand side. <em>Note that tools may be periodically removed. If you rely on one that does get removed, just tell me and I will replace it for you.</em> The last such rotation was in February 2019, during the transition to Debian.</p>
 		</div>
 		<h2 class="screenreaders">Tools</h2>
 		<div class="boxes-holder">
 			<ul class="boxes">
-				<li><h3><a href="https://tools.wmflabs.org/templatecount/">TemplateCount</a></h3><p>Count the number of transclusions a template has.</p><p class="source"><a href="https://github.com/Jarry1250/labs-templatecount"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
-				<li><h3><a href="https://tools.wmflabs.org/wikicup/">WikiCup</a></h3><p>Live scores, plus individual and competition totals.</p><p class="source"><a href="https://github.com/Jarry1250/labs-wikicup"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
-				<li><h3><a href="https://tools.wmflabs.org/svgcheck/">SVG Check</a></h3><p>Preview the display of SVG files and detect errors.</p><p class="source"><a href="https://github.com/Jarry1250/labs-svgcheck"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
-				<li><h3><a href="https://tools.wmflabs.org/grep/">Grep</a></h3><p>Search page titles on a wiki using regular expressions.</p><p class="source"><a href="https://github.com/Jarry1250/labs-grep"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
-				<li><h3><a href="https://tools.wmflabs.org/wmukevents/">Wikimedia UK events</a></h3><p>Auto-generated .ics (calendar) file</p><p class="source"><a href="https://github.com/Jarry1250/labs-wmukevents"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
+				<li><h3><a href="https://templatecount.toolforge.org/">TemplateCount</a></h3><p>Count the number of transclusions a template has.</p><p class="source"><a href="https://github.com/Jarry1250/labs-templatecount"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
+				<li><h3><a href="https://wikicup.toolforge.org/">WikiCup</a></h3><p>Live scores, plus individual and competition totals.</p><p class="source"><a href="https://github.com/Jarry1250/labs-wikicup"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
+				<li><h3><a href="svgcheck/">SVG Check</a></h3><p>Preview the display of SVG files and detect errors.</p><p class="source"><a href="https://github.com/Jarry1250/labs-svgcheck"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
+				<li><h3><a href="https://grep/">Grep</a></h3><p>Search page titles on a wiki using regular expressions.</p><p class="source"><a href="https://github.com/Jarry1250/labs-grep"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
+				<li><h3><a href="https://wmukevents/">Wikimedia UK events</a></h3><p>Auto-generated .ics (calendar) file</p><p class="source"><a href="https://github.com/Jarry1250/labs-wmukevents"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
 				<li><h3>Scripts</h3><p>Scripts underlying other tasks performed by my bots</p><p class="source"><a href="https://github.com/Jarry1250/labs-jarry-common"><?= _html( 'view-source' , 'general' ); ?></a></p></li>
 			</ul>
 <?php
